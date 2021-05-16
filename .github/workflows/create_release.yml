@@ -1,7 +1,5 @@
 name: create release
-'on':
-  push:
-    paths-ignore: '**/README.md'
+'on': push
 jobs:
   release-project:
     name: Release different versions of Text file
