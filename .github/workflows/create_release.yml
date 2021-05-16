@@ -2,7 +2,6 @@ name: create release
 'on':
   push:
     paths-ignore: '**/README.md'
-  workflow_dispatch:
 jobs:
   release-project:
     name: Release different versions of Text file
